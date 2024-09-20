@@ -8,8 +8,9 @@ c. Unary -- predecrement, postdecrement*/
 using namespace std;
 
 class overload{
-    public:
+    private:
         int num;
+    public:
         overload(int num){
             this->num=num;
         }
